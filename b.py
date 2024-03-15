@@ -1,13 +1,17 @@
-#!/usr/bin/env python3
+# Afslut figuren, så den slutter i samme punkt, som den starter 
+# (og sæt farten lidt op?)
 
 import turtle
 t = turtle.Turtle()
-t.speed(10)
+t.speed(1)
+
+# gå til begundelsespunktet
 t.penup()
 t.goto(200,-200)
 t.pendown()
 
-for i in range(120):
+# tegn
+for i in range(4):
   t.left(93)
   t.forward(500)
 
